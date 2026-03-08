@@ -2,20 +2,27 @@
 
 Файл index.html.
 1. Лишний пробел в подвале страницы. Сейчас "202 4", а должно быть "2024".
-2. ...
-3. ...
-4. ...
+2. <center><img class="center animated rollIn" src="img/ava.png" alt="avatar"></center>
+ должно быть <div style="text-align:center;">
+3. <p class="location" align="center"> должно быть <div style="text-align:center;">
+4. <a href="html/cmd.html">Командная строка Windos</a> должно быть  <a href="html/cmd.html">Командная строка Windows</a>
+5. Основныые Интрументы надо Основные инструменты 
 
 Файл cmd.html.
-1. ...
-2. ...
-3. ...
+1.  Лишний пробел в подвале страницы. Сейчас "202 4", а должно быть "2024".
+2.  <li>DIR – Изменить каталог</li>
+    <li>CD – Отображение файлов и папок в текущем каталоге</li> перепутаны местами DIR и CD 
+3. <li>DATE – Выводит или устанавливает системное время</li>
+   <li>TIME – Выводит или устанавливает текущую дату</li> так же перепутаны местами DATE и TIME
+4. нет кнопки для перехода на главную старнцу <a href="../index.html">Вернуться на главную</a>
+5. MAKEDIR – Создать папку должно быть MKDIR 
+6. одинаковое наименование <title>Portal for QA</title>, поменять например <title>Portal Windows</title>
 
 Файл mac.html.
-1. ...
+1. <p class="location" align="center"> должно быть <div style="text-align:center;">
 2. ...
 
 Файл git.html
-1. ...
-2. ...
-3. ...
+1. Лишний пробел в подвале страницы. Сейчас "202 4", а должно быть "2024".
+2.  <a href="mac.html">Вернуся на главную</a> ошибка в слове, надо Вернуться на главную.должно быть <a href="../index.html">Вернуться на главную</a>
+3.<p class="location" align="center"> должно быть <div style="text-align:center;">
